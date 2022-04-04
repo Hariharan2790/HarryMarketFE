@@ -1,0 +1,102 @@
+.item{
+    box-shadow: 0 0 3px rgb(112, 105, 105);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.item:hover{
+    transform : scale(1.05);
+    transition: all 0.3s;
+}
+.name{
+    color : tomato;
+    font-size:20px;
+}
+
+.itemprice{
+    text-align: center;
+    color:rgb(33, 31, 31);
+    font-size:20px;
+}
+.item button{
+    margin-top: 10px;
+    background-color:rgb(21, 138, 21) !important;
+    color:white !important;
+    border-radius: 5px!important;
+}
+
+input{
+    border:1px solid rgb(0,39,31)!important;
+    box-shadow: none !important;
+    outline:none !important;
+}
+input:focus{
+    box-shadow: none !important;
+    outline:none !important;
+}
+.ant-select-selector{
+    border:1px solid rgb(0,39,31)!important;
+    box-shadow: none !important;
+    outline:none !important;
+}
+
+.category{
+    border : 2px solid gray !important;
+    margin-right: 50px;
+    align-items: center;
+    padding-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.category h4{
+    margin-right: 25px;
+    font-size: 22px;
+}
+.category img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+        margin: -2px;
+}
+
+.selected-category{
+    border: 3px solid rgb(3,38,66)!important;
+}
+
+
+.subtotal h3{
+    color : rgb(2, 137, 98)!important;
+    font-size: 25px;
+    padding: 15px;
+}
+
+
+     /* =====================Bill Styling====================    */
+.bill-header{
+    border-bottom: 2px dashed #000;
+}
+.bill-modal h1{
+    font-size:20px;
+}
+.bill-modal p{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    
+}
+.bill-modal h2{
+    margin-top: 0;
+    margin-bottom: 0!important;
+}
+.dotted-border{
+    border-bottom: 2px dotted #000;
+}
+
+
+@media only screen and (max-width:600px){
+    .categories{
+        overflow-x:scroll;
+        width:100%;
+    }
+}

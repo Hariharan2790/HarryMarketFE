@@ -1,0 +1,9 @@
+export const host = "https://harrymarket.herokuapp.com";
+export const getallitems = `${host}/api/items/getallitems`;
+export const addItem = `${host}/api/items/additem`;
+export const editItem = `${host}/api/items/edititem`;
+export const deleteItems = `${host}/api/items/deleteitem`;
+export const GetAllBills = `${host}/api/bills/getallbills`;
+export const generateBill = `${host}/api/bills/chargebill`;
+export const LoginUsers = `${host}/api/users/login`;
+export const RegisterUsers = `${host}/api/users/register`;
