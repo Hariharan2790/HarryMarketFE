@@ -41,13 +41,13 @@ function Register() {
             <hr />
             <h3>Register</h3>
             <Form.Item name="name" label="Name">
-              <Input placeholder="Enter Your Name"/>
+              <Input type="text" placeholder="Enter Your Name" required/>
             </Form.Item>
             <Form.Item name="userId" label="User ID">
-              <Input placeholder="Create your New User Id or Enter Email"/>
+              <Input type="text" placeholder="Create your New User Id or Enter Email" required/>
             </Form.Item>
             <Form.Item name="password" label="Password">
-              <Input type="password" placeholder='Enter Password'/>
+              <Input type="password" placeholder='Enter Password' required/>
             </Form.Item>
 
             <div className="d-flex justify-content-between align-items-center">

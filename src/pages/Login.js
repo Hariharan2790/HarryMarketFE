@@ -38,10 +38,10 @@ function Login() {
               <h3>Login</h3>
            
             <Form.Item name="userId" label="User ID">
-              <Input placeholder="Enter your user ID or Email" />
+              <Input type="text" placeholder="Enter your user ID or Email" required/>
             </Form.Item>
             <Form.Item name="password" label="Password">
-              <Input type="password" placeholder="Enter Password"/>
+              <Input type="password" placeholder="Enter Password" required/>
             </Form.Item>
 
             <div className="d-flex justify-content-between align-items-center">
